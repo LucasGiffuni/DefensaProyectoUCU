@@ -8,6 +8,7 @@ namespace Ucu.Poo.Defense.Tests
         ResidueType nonDangerousType;
 
         [SetUp]
+        
         public void Setup()
         {
             this.nonDangerousType = new ResidueType("Non dangerous type", false);
